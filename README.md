@@ -32,3 +32,8 @@ make build
 ## Запуск
 
 Необходимо установить нужные значения переменным среды и запустить файл `gojwt`.
+
+Для простотого запуска с базой можно воспользоваться Docker:
+```shell
+docker container run -d -p 5432:5432 -e POSTGRES_PASSWORD=yourpassword --name postgres postgres
+```

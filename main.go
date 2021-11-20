@@ -1,11 +1,8 @@
 package main
 
-import (
-	"github.com/rs/zerolog/log"
-)
-
 func main() {
-	app := App{}
+	app := NewApp()
+	app.Init()
 
-	log.Info().Msgf("Created app %s.", app)
+	app.Run(":8080")
 }
