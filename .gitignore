@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+### VS Code ###
+.vscode/
+
+# Binary of app
+gojwt
+
+# Local environment
+.env
